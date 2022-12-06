@@ -2,6 +2,7 @@ const chai = require("chai");
 global.expect = chai.expect;
 const isPalindrome = require("../index");
 
+
 describe("isPalindrome", () => {
   it("returns true for 'abba'", () => {
     expect(isPalindrome("abba")).to.be.true;
